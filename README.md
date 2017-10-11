@@ -5,13 +5,15 @@
 
 > 使用本项目前，请先阅读 [README](README.md) 和 [License](#license)
 
-|      [聊天室][chat-room]       |    [hosts 格式检测][travis-status]    |  [镜像hosts][mirror_of_hosts]  |  [常见问题解答][faq] |
-| :----------------------------: | :-----------------------------------: |  :---------------------------: |  :-----------------: |
-|  [![chat-metadata]][chat-room] |  [![travis-metadata]][travis-status]  |  [![coding.net]][coding-link]  |  [![faq-icon]][faq]  |
+|   [Gitter聊天室][chat-room]   |      [Telegram群][telegram-group]      |   [hosts自动生成][travis-status]    | [镜像hosts][mirror_of_hosts] | [常见问题解答][faq] |
+|             :---:             |                 :---:                  |                :---:                |            :---:             |        :---:        |
+| [![chat-metadata]][chat-room] | [![telegram-metadata]][telegram-group] | [![travis-metadata]][travis-status] | [![coding.net]][coding-link] | [![faq-icon]][faq]  |
 
-[chat-metadata]: https://badges.gitter.im/racaljk/hosts.svg "Join the chat"
+[chat-metadata]: https://img.shields.io/badge/Google%20Hosts-Gitter-brightgreen.svg?style=flat-square "Join the chat"
 [chat-room]: https://gitter.im/racaljk/hosts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge "Gitter chat room"
-[travis-metadata]: https://travis-ci.org/racaljk/hosts.svg "Travis CI Metadata"
+[telegram-metadata]: https://img.shields.io/badge/Google%20Hosts-Telegram-brightgreen.svg?style=flat-square
+[telegram-group]: https://t.me/googlehosts
+[travis-metadata]: https://img.shields.io/travis/racaljk/hosts/hosts-source.svg?style=flat-square "Travis CI Metadata"
 [travis-status]: https://travis-ci.org/racaljk/hosts "Travis CI Status"
 [coding.net]: https://cloud.githubusercontent.com/assets/7419875/21286217/c6642eb2-c488-11e6-94b1-8ad01d31ac9d.png
 [coding-link]: https://coding.net/u/scaffrey/p/hosts/git "Coding"
@@ -43,6 +45,10 @@
   >  - 手动替换 hosts 时，建议清空 hosts 原有的内容，再进行复制操作
   >  - 替换 hosts 文件后，相关记录可能不会立即生效，可以关闭开启网络，或启用禁用飞行模式<br/>
   >    让域名解析立即生效
+
+## 如何贡献
+
+`hosts`等文件是由程序自动生成的，如要改变其内容，请修改`hosts-source`分支下的[`hosts.yml`](https://github.com/racaljk/hosts/blob/hosts-source/hosts.yml)，具体说明见该分支下的[README](https://github.com/racaljk/hosts/tree/hosts-source)。
 
 ## 更多
 
